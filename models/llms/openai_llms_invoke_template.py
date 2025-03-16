@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 openai_llm_model = OpenAI(model='gpt-3.5-turbo-instruct')
-result = openai_llm_model.invoke("What is meaning of AGI?")
+result = openai_llm_model.invoke("What is the meaning of AGI?")
 
 print(result)
 
